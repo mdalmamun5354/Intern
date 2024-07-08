@@ -13,6 +13,6 @@ if ($conn->query($sql)) {
 }
 
 $conn->close();
-header("Location: list.php"); // Redirect back to the main page
+header("Location: index.php"); // Redirect back to the main page
 exit();
 ?>
