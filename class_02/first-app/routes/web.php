@@ -28,3 +28,7 @@ Route::get('/add', function () {
 Route::get('/update', function () {
     return view('update');
 });
+
+Route::get('/page', function () {
+    return view('page');
+});
