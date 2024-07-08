@@ -17,7 +17,9 @@
 <body>
 
 <div class="container">
+
     <h2>Data List</h2>
+    <a href="add.php" class="btn btn-primary">Add new record</a>
 
     <?php
     include 'db_connect.php';

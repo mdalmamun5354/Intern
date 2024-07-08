@@ -22,7 +22,7 @@
     $email = $_POST['email'];
 
     if ($firstname && !empty($lastname) && !empty($email)){
-        $sql = "INSERT INTO ICT (firstname, lastname, email)
+        $sql = "INSERT INTO MyGuests (firstname, lastname, email)
 VALUES ('$firstname', '$lastname', '$email')";
 
         if (mysqli_query($conn, $sql)) {

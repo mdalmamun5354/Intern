@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $lastname = $_POST["lastname"];
     $email = $_POST["email"];
 
-    $sql = "UPDATE ICT SET firstname='$firstname', lastname='$lastname', email='$email' WHERE id='$id'";
+    $sql = "UPDATE MyGuests SET firstname='$firstname', lastname='$lastname', email='$email' WHERE id='$id'";
     if ($conn->query($sql)) {
         echo "Record updated successfully";
     } else {
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     }
 
     $conn->close();
-    header("Location: list.php"); // Redirect back to the main page
+    header("Location: index.php"); // Redirect back to the main page
     exit();
 }
 ?>
