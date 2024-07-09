@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7113cacb-0181-4046-8867-1a7fbfc92c4b" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -24,6 +25,9 @@
 =======
 >>>>>>> 2849d37 (class 2 practic bootstrap page done)
 >>>>>>> mamun
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
@@ -147,6 +152,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> Stashed changes
   </component>
   <component name="FindInProjectRecents">
     <dirStrings>
@@ -259,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/purple-free" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -296,15 +304,22 @@
 <<<<<<< HEAD
       <workItem from="1720234966284" duration="1201000" />
       <workItem from="1720371247902" duration="36000" />
+<<<<<<< Updated upstream
 =======
       <workItem from="1720234966284" duration="6440000" />
       <workItem from="1720351000751" duration="828000" />
       <workItem from="1720407772958" duration="1090000" />
 >>>>>>> 1ca36ea (class 1 updated)
+=======
+      <workItem from="1720371312058" duration="787000" />
+      <workItem from="1720454982083" duration="1483000" />
+      <workItem from="1720460926317" duration="4000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="18431000" />
   </component>
@@ -322,11 +337,15 @@
 =======
     <option name="totallyTimeSpent" value="17812000" />
 >>>>>>> 2849d37 (class 2 practic bootstrap page done)
+=======
+    <option name="totallyTimeSpent" value="18318000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="27" width="1318" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2513369" />
@@ -337,6 +356,9 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18632075" />
 >>>>>>> 2849d37 (class 2 practic bootstrap page done)
 >>>>>>> mamun
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,11 +371,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289256" />
 =======
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289256" />
 >>>>>>> mamun
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3283582" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -397,6 +423,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/class_01/delete.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -409,6 +436,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/class_01/edit.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -431,8 +460,15 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/class_01/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="285">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_01/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
