@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CategoriesControler;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,12 +20,20 @@ Route::get('/', function () {
 });
 
 Route::prefix('admin')->group(function () {
-    Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index']);
-    Route::get('/tables', [\App\Http\Controllers\DashboardController::class, 'tables']);
-    Route::get('/billing', [\App\Http\Controllers\DashboardController::class, 'billing']);
-    Route::get('/profile', [\App\Http\Controllers\DashboardController::class, 'profile']);
+    Route::get('/dashboard', [DashboardController::class, 'index']);
+    Route::get('/tables', [DashboardController::class, 'tables']);
+    Route::get('/billing', [DashboardController::class, 'billing']);
+    Route::get('/profile', [DashboardController::class, 'profile']);
     Route::prefix('/product')->group(function () {
-        Route::get('/add', [\App\Http\Controllers\DashboardController::class, 'addProduct'])->name('addProduct');
+        Route::get('/add', [DashboardController::class, 'addProduct'])->name('addProduct');
+    });
+    Route::prefix('/category')->group(function () {
+        Route::get('/list', [CategoriesControler::class, 'index'])->name('cat.list');
+        Route::get('/add', [CategoriesControler::class, 'create'])->name('cat.add');
+        Route::post('/add', [CategoriesControler::class, 'store'])->name('cat.store');
+        Route::get('/edit/{id}', [CategoriesControler::class, 'edit'])->name('cat.edit');
+        Route::post('/update', [CategoriesControler::class, 'update'])->name('cat.update');
+        Route::get('/delete/{id}', [CategoriesControler::class, 'delete'])->name('cat.delete');
     });
 
 });
