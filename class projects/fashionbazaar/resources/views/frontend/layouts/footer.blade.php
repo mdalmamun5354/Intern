@@ -8,7 +8,6 @@
                     </div>
                     <div class="information_f">
                         <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
-                        <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
                         <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
                     </div>
                 </div>
@@ -70,9 +69,9 @@
 </footer>
 
 <div class="cpy_">
-    <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>
+    <p class="mx-auto">© 2021 All Rights Reserved By <a href="">Fashion Bazaar</a><br>
 
-        Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+        Developed By <a href="" target="_blank">Md. Al Mamun</a>
 
     </p>
 </div>

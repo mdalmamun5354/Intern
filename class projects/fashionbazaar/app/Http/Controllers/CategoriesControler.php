@@ -18,8 +18,7 @@ class CategoriesControler extends Controller
         return view('backend.addEditCategory');
     }
 
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
 
         $this->validate($request, [
             'name' => 'required|max:255',

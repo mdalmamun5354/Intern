@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoriesControler;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,11 +16,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.home');
+Route::prefix('/')->group(function () {
+    Route::get('/', function () {
+        return view('frontend.home');
+    });
+    Route::prefix('/product')->group(function () {
+
+        Route::get('/show/{id}', [ProductController::class, 'showOne'])->name('pro.show');
+        Route::get('/list', [ProductController::class, 'showList'])->name('pro.list');
+//        Route::get('/add', [CategoriesControler::class, 'create'])->name('pro.add');
+//        Route::post('/add', [CategoriesControler::class, 'store'])->name('pro.store');
+//        Route::get('/edit/{id}', [CategoriesControler::class, 'edit'])->name('pro.edit');
+//        Route::post('/update', [CategoriesControler::class, 'update'])->name('pro.update');
+//        Route::get('/delete/{id}', [CategoriesControler::class, 'delete'])->name('pro.delete');
+    });
 });
 
-Route::prefix('admin')->group(function () {
+
+Route::prefix('/admin')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index']);
     Route::get('/tables', [DashboardController::class, 'tables']);
     Route::get('/billing', [DashboardController::class, 'billing']);
